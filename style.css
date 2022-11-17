@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(176, 176, 176);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    background-color: rgb(202, 202, 202);
+    width: 600px;
+    height: 400px;
+    margin: 9% 30%;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: cadetblue;
+}
+
+.h1 {
+    text-align: center;
+    color: rgb(53, 91, 92);
+}
+
+.hr {
+    margin: 1px 60px 30px 60px;
+    background: linear-gradient(90deg, rgba(2, 0, 3 6, 1) 70%, rgba(255, 255, 255, 1) 100%); 
+    border-top: 3px solid cadetblue ;   
+}
+
+.input {
+    display: block;
+    text-align: left;
+    margin: auto;
+    height: 27px;
+    width: 95%;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0, 0.374);
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+    padding-left: 10px;
+    border-bottom: 0px;
+}
+
+.logar{
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: 95%;
+    height: 37px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+p{
+    display: inline;
+    position:static ;
+    margin: 0 auto;
+   
+}
+
+#cadastre{
+    background-color: white;
+    color: royalblue;
+    display: inline-block;
+    border-radius: 3px;
+    position: fixed;
+    margin-top: 10px;
+    right: 27%;
+}
+
+
